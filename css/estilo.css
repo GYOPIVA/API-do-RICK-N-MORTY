@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    color: white;
+}
+
+body {
+    background-color: #1a1a1a;
+}
+
+.home {
+    background-color: #000;
+    padding-top: 30px;
+
+    & .logo {
+        width: 220px;
+        margin: auto;
+    }
+
+
+    & .conteiner {
+        max-width: 1260px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        & .content {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            width: 550px;
+
+            & h1 {
+                font-size: 48px;
+
+                & span {
+                    color: #11b0c8;
+
+                }
+            }
+
+            & .description {
+                display: flex;
+                flex-direction: column;
+                gap: 24px;
+
+                & a {
+                    background-color: #11b0c8;
+                    width: 170px;
+                    padding: 10px 20px;
+                    text-decoration: none;
+                    font-size: 14px;
+                    border-radius: 100px;
+                }
+            }
+
+            & p:last-child {
+                color: #11b0c8;
+            }
+        }
+    }
+}
+
+.personagens {
+    width: 1270px;
+    margin: auto;
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+
+    & h2 {
+        margin-bottom: 35px;
+    }
+
+    & .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+
+        & .card {
+            background-color: #1a1a1a;
+            border: #868686 solid 1px;
+            border-radius: 16px;
+            padding: 16px;
+            padding-bottom: 72px;
+
+            & header {
+                margin-bottom: 19px;
+
+                & img {
+                    margin-bottom: 16px;
+                    width: 252px;
+                    border-radius: 10px;
+                }
+            }
+
+            & .content {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+
+                & .status {
+                    display: flex;
+                    gap: 4px;
+                }
+            }
+        }
+    }
+}
+
+.carregar{
+    width: 231px;
+    margin: auto;
+    margin-top: 71px;
+    padding-bottom: 50px;
+
+    & button{
+        background-color: #11b0c8;
+        width: 231px;
+        padding: 15px;
+        border-radius: 100px;
+        border: none;
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
